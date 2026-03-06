@@ -39,12 +39,12 @@ compare their responses.
 
 ### Folder descriptions
 
-  Folder               Purpose
-  -------------------- ----------------------------------------------------------
-  `codes/`             Implementation scripts for the RAG pipeline
-  `data/ipcc_nipcc/`   Example corpus used in the paper
-  `keys/`              Location for API keys (not committed to version control)
-
+| Folder | Purpose |
+| :--- | :--- |
+| `codes/` | Implementation scripts for the RAG pipeline |
+| `data/ipcc_nipcc/` | Example corpus used in the paper |
+| `keys/` | Location for API keys (not committed to version control) |
+  
 ------------------------------------------------------------------------
 
 # Conceptual Overview
@@ -54,9 +54,9 @@ systematic comparison across multiple corpora.
 
 ### Step 1 --- Pre-processing and Embedding
 
--   Clean and preprocess text\
--   Split text into overlapping chunks\
--   Convert chunks into vector embeddings\
+-   Clean and preprocess text
+-   Split text into overlapping chunks
+-   Convert chunks into vector embeddings
 -   Store embeddings in a vector database
 
 ### Step 2 --- Retrieval
@@ -66,8 +66,8 @@ systematic comparison across multiple corpora.
 
 ### Step 3 --- Response Generation
 
--   Pass retrieved chunks to an LLM\
--   Instruct the model to **use only the retrieved context**\
+-   Pass retrieved chunks to an LLM
+-   Instruct the model to **use only the retrieved context**
 -   Produce grounded answers
 
 ------------------------------------------------------------------------
@@ -79,7 +79,7 @@ systematic comparison across multiple corpora.
 The repository includes a working example comparing two large text
 corpora:
 
--   **IPCC reports** (climate science consensus)\
+-   **IPCC reports** (climate science consensus)
 -   **NIPCC reports** (climate skepticism)
 
 The goal is to demonstrate how the pipeline can extract **contrasting
@@ -225,10 +225,10 @@ The architecture is modular and can easily be adapted.
 The pipeline is designed for **comparative text analysis at scale**,
 including:
 
--   Political discourse comparison\
--   Media framing analysis\
--   Corporate communication analysis\
--   Policy document comparison\
+-   Political discourse comparison
+-   Media framing analysis
+-   Corporate communication analysis
+-   Policy document comparison
 -   Scientific literature synthesis
 
 ------------------------------------------------------------------------

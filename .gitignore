@@ -123,22 +123,15 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Out of scope Data folders
-decoded_data/
-decoded_data2/
-decoded_data3/
-decoded_data4/
-decoded_data5/
-decoded_data6/
-decoded_data7/
-Ewens 10K MDA data/
-interviews/
+# Out of scope folders
 keys/
-Literature/
-pot_corrupted_files/
-pot_corrupted_files_2/
-pot_corrupted_files_desktop/
-Data/
+data/*
+
+# Ignore data folder by default
+data/*
+
+# Allow the example dataset folder
+!data/ipcc_nipcc/
 
 # Allow specific datasets used in the example
 !data/ipcc_nipcc/IPCC_consolidated.zip
