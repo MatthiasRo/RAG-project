@@ -61,7 +61,7 @@ systematic comparison across multiple corpora.
 
 ### Step 2 --- Retrieval
 
--   Embed the user query\
+-   Embed the user query
 -   Retrieve the most similar text chunks from the vector database
 
 ### Step 3 --- Response Generation
@@ -199,23 +199,23 @@ The architecture is modular and can easily be adapted.
 
 ### Alternative Embedding Models
 
--   text-embedding-3-small\
--   text-embedding-3-large\
--   Qwen embeddings\
+-   text-embedding-3-small
+-   text-embedding-3-large
+-   Qwen embeddings
 -   sentence-transformers
 
 ### Alternative Vector Databases
 
--   FAISS\
--   Milvus\
--   Pinecone\
+-   FAISS
+-   Milvus
+-   Pinecone
 -   Weaviate
 
 ### Alternative LLMs
 
--   GPT models\
--   Claude\
--   Gemini\
+-   GPT models
+-   Claude
+-   Gemini
 -   Llama
 
 ------------------------------------------------------------------------
