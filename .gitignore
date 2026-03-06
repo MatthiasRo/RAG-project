@@ -139,3 +139,7 @@ pot_corrupted_files/
 pot_corrupted_files_2/
 pot_corrupted_files_desktop/
 Data/
+
+# Allow specific datasets used in the example
+!data/ipcc_nipcc/IPCC_consolidated.zip
+!data/ipcc_nipcc/NIPCC_consolidated.zip
